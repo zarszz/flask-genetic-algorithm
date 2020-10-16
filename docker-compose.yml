@@ -3,6 +3,6 @@ services:
   genetic-algorithm:
     container_name: flask-genetic-algorithm
     build: .
-    ports: [ '9000:5000' ]
+    ports: [ '8081:5000' ]
     volumes: [ '.:/usr/src/app' ]
     restart: always
